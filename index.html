@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="images/logo.png" alt="logo" />
+      </div>
+      <div class="info">
+        <img src="images/info.png" alt="besoin d'aide?`" />
+      </div>
+    </nav>
+    <header>
+      <h1>Libérez l'aventurier <br />qui est en vous !</h1>
+    </header>
+
+    <main>
+      <h2>
+        Découvrez les meilleurs plans, la sécurité et un réseau d'aventuriers
+        pour rendre chaques voyage inoubliable
+      </h2>
+      <div class="cards-container">
+        <div class="card">
+          <h3>Bons plans</h3>
+          <p>
+            Accédez aux offres exclusives: hébergements, activités et transports
+            à prix réduits, partagés par des voyageurs
+          </p>
+          <img src="images/offre.png" alt="offre" />
+        </div>
+        <div class="card">
+          <h3>Voyagez en sécurité</h3>
+          <p>
+            Voyagez sereinement grâce à des alertes sécurités et des conseils
+            pratiques en temps réel
+          </p>
+          <img src="images/Securite.png" alt="sécurité" />
+        </div>
+        <div class="card">
+          <h3>Communauté</h3>
+          <p>
+            Rejoignez un réseau de Backpackers, échangez des astuces et
+            organisez des aventures ensemble
+          </p>
+          <img src="images/communaute.png" alt="communauté" />
+        </div>
+      </div>
+    </main>
+    <form>
+      <h2>Formulaire d'inscription</h2>
+      <p>
+        Inscrivez-vous et restez informé pour recevoir les meilleures offres,
+        conseils et astuces pour vos aventures !
+      </p>
+      <div class="infoperso">
+        <div class="Nom">
+          <label for="name">Nom</label>
+          <input type="text" id="name" name="name" required placeholder="Nom" />
+        </div>
+        <div class="Prenom">
+          <label for="prénom">Prénom</label>
+          <input
+            type="text"
+            name="prénom"
+            id="prénom"
+            required
+            placeholder="Prénom"
+          />
+        </div>
+      </div>
+      <div class="infoperso mail">
+        <label for="mail">Adresse mail</label>
+        <input
+          type="mail"
+          name="mail"
+          id="mail"
+          required
+          placeholder="Nom.prénom@gmail.com"
+        />
+      </div>
+      <div class="chexkbox">
+        <div class="checkboxe">
+          <input type="checkbox" id="newsletter" name="newsletter" />
+          <label for="newsletter"
+            >Je souhaite recevoir des notification de Backpackers</label
+          >
+        </div>
+        <div class="checkboxe">
+          <input type="checkbox" id="conditions" name="conditions" required />
+          <label for="conditions"
+            >J'accepte les conditions générales d'utilisation</label
+          >
+        </div>
+      </div>
+
+      <div class="soumettre">
+        <input type="submit" value="S'inscrire" />
+      </div>
+    </form>
+    <footer>
+      <div class="info infofooter">
+        <p>A propos</p>
+        <p>FAQ</p>
+        <p>Contact</p>
+        <p>Mentions légales</p>
+        <p>Politique de confidentialité</p>
+      </div>
+      <div class="reseaux">
+        <img src="images/facebook.png" alt="facebook" />
+        <img src="images/instagram.png" alt="instagram" />
+        <img src="images/twitter.png" alt="twitter" />
+      </div>
+    </footer>
+  </body>
+</html>
